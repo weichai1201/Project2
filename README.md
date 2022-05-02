@@ -1,28 +1,7 @@
 # 11056-project2
 
-## 11056 Project 2 Starter
+## 11056 Project 2 Reflection
 
-This is repo containing everything you need to start Project 2. All you need to do is clone this repository to your computer and start editing...
+A web page is a picture seen in a browser, also known as a Web page, in fact, it is a file, stored in a server connected with the Internet. The static Web page refers to the fixed content of the Web page. When the viewer requests the Web server to replace the Web content through the HTTP protocol of the Internet, the server only transmits the original static HTML document to the user, and the content of the page is only the standard HTML code. Static web files usually have suffix names such as HTM and HTML. Many enterprise web pages at all levels are presented as static web pages.
 
-Make sure you refer to Canvas for more info.
-
-## Install Elventy
-From Terminal, navigate to the folder you saved the repository in:
-
-Type `npm create`
-
-or, if that doesn't work: `npm install --save-dev @11ty/eleventy`
-
-## Test your site
-
-Open Terminal and type: `npm start`
-
-This will create a local server to test the website.
-
-Go to: http://localhost:8080 to view your site
-
-## Build the site
-
-Run `npm build`
-
-Open up your site folder and you'll discover a folder within it called `final-website` this is where your actual site files are located. 
+In Project2, we learned how to use Static Site Generator to draw web pages. 
