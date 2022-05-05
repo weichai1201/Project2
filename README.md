@@ -1,4 +1,3 @@
-# 11056-project2
 
 ## 11056 Project 2 Reflection
 
