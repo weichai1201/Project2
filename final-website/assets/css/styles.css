@@ -1,0 +1,115 @@
+body {
+    font-size: 16px;
+    background-color:white;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #f4f4f4;
+    /* shorthand for TOP RIGHT BOTTOM LEFT */
+    /* margin: 1em 0 1.5em 0; */
+}
+
+h2 {
+    font-size: 1.6em;
+    text-align: center;
+    
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 2em;
+
+}
+img{
+    max-width: 100%;
+}
+
+.inner-wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hero {
+    text-align: center;
+    min-height: 5em;
+    padding: 2em;
+    margin: 1em 0;
+    /* vertically align */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header,
+footer {
+    background-color: black;
+    padding: 1em ;
+    color: white;
+}
+/* css media query and responsive design */
+@media (min-width: 1200px) {
+
+    h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 1.6em;
+    }
+    p{
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.6em;
+    }
+    p{
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    p{
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    p{
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 576px) {
+
+    
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+     p{
+        font-size: 1.2em;
+    }
+}
+
